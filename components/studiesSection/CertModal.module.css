@@ -1,0 +1,15 @@
+.certImage {
+  height: auto;
+}
+
+@media (max-height: 500px) {
+  .certImage {
+    max-width: 300px;
+  }
+}
+
+@media (min-height: 500px) and (min-width: 500px) {
+  .certImage {
+    max-width: 500px;
+  }
+}
