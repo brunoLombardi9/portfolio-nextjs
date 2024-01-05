@@ -12,7 +12,7 @@ const AboutSection = ({ aboutRef }) => {
         <div className="h-full flex flex-col gap-5">
           <p className="text-grey">
             Desde siempre fuí un aficionado de la tecnología y todo lo que
-            deriva de ella, lo cual me fue ascercando poco a poco al mundo del
+            deriva de ella, lo cual me fue acercando poco a poco al mundo del
             desarrollo web, al cual me vengo dedicando el último tiempo.
           </p>
 
