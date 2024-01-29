@@ -1,4 +1,4 @@
-import { transitions300 } from "@/utils/constants";
+import { transitions150, transitions300 } from "@/utils/constants";
 import React from "react";
 import { MdClear } from "react-icons/md";
 import styles from "./CertModal.module.css";
@@ -35,10 +35,16 @@ const CertModal = ({ certificate, url, handleModal, open }) => {
           />
 
           <div className="w-full flex justify-center pt-4">
-            <a href={url} target="_blank" className="content-fit inline-block">
-              <p className="text-white my-auto flex justify-center items-center gap-2">
-                Ver aqui
-                <BiLinkExternal size={20} color="white" />
+            <a
+              href={url}
+              target="_blank"
+              className={`content-fit inline-block py-1 px-4 rounded-full bg-white hover:bg-lightGreen ${transitions150} `}
+            >
+              <p
+                className={`my-auto flex justify-center items-center gap-2 text-black`}
+              >
+                Ver enlace
+                <BiLinkExternal size={20} className={`fill-black`} />
               </p>
             </a>
           </div>
