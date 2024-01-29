@@ -39,6 +39,7 @@ const CertificationCard = ({ study }) => {
 
       <CertModal
         certificate={study.certificate}
+        url={study.url}
         handleModal={handleModal}
         open={modal}
       />

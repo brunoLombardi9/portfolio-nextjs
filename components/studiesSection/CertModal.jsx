@@ -3,8 +3,9 @@ import React from "react";
 import { MdClear } from "react-icons/md";
 import styles from "./CertModal.module.css";
 import Image from "next/image";
+import { BiLinkExternal } from "react-icons/bi";
 
-const CertModal = ({ certificate, handleModal, open }) => {
+const CertModal = ({ certificate, url, handleModal, open }) => {
   return (
     <>
       <div
@@ -20,7 +21,7 @@ const CertModal = ({ certificate, handleModal, open }) => {
       >
         <div className={`p-4 pt-2 bg-hoverPrimary rounded absolute`}>
           <MdClear
-            size={50}
+            size={40}
             onClick={handleModal}
             className={`ms-auto cursor-pointer my-auto mb-2 ${transitions300} fill-white hover:fill-lightGreen hover:rotate-180`}
           />
@@ -32,6 +33,15 @@ const CertModal = ({ certificate, handleModal, open }) => {
             width={1000}
             className={styles.certImage}
           />
+
+          <div className="w-full flex justify-center pt-4">
+            <a href={url} target="_blank" className="content-fit inline-block">
+              <p className="text-white my-auto flex justify-center items-center gap-2">
+                Ver aqui
+                <BiLinkExternal size={20} color="white" />
+              </p>
+            </a>
+          </div>
         </div>
       </div>
     </>

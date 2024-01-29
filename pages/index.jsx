@@ -26,7 +26,7 @@ const index = () => {
   return (
     <>
       <Head>
-        <title>Bruno Lombardi - Frontend Developer</title>
+        <title>Bruno Lombardi - Fullstack Developer</title>
       </Head>
       <Navbar options={options} selectedOption={selectedOption} />
       <div className="grid grid-cols-1 md:grid-cols-2">
@@ -49,7 +49,7 @@ const index = () => {
                 />
               </h1>
               <h2 className="text-lightGrey text-2xl md:text-3xl mt-4">
-                Frontend Developer
+                Fullstack Developer
               </h2>
               <p className="text-grey mt-4">
                 Entusiasta de la tecnología y la web. Especializado en la

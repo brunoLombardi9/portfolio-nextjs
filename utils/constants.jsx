@@ -21,57 +21,34 @@ import {
 } from "react-icons/si";
 import reactCarrera from "../public/certificados/certificado-react-carrera.png";
 import backendCurso from "../public/certificados/certificado-backend-curso.png";
+import metaRN from "../public/certificados/Meta-ReactNative.png";
 
 export const transitions150 = "transition-all duration-150 ease-in-out";
 export const transitions300 = "transition-all duration-300 ease-in-out";
-export const aboutText =
-  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem expedita consequatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem expedita consequatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem expedita consequatur.";
-
 export const studies = [
-  // {
-  //   date: "10-12-2023",
-  //   name: "Curso de desarrollo web",
-  //   description:
-  //     "Developed, maintained, and shipped production code for client websites. Clients included JetBlue, Lovesac, U.S. Cellular, U.S. Department of Defense, and more.",
-  //   url: "https://www.coderhouse.com/certificados/61ca2a9b4a86e5004b1676bd?lang=es",
-  // },
-  // {
-  //   date: "10-12-2023",
-  //   name: "Curso de Javascript",
-  //   description:
-  //     "Developed, maintained, and shipped production code for client websites. Clients included JetBlue, Lovesac, U.S. Cellular, U.S. Department of Defense, and more.",
-  //   url: "https://www.coderhouse.com/certificados/626696851df1ed0028930821?lang=es",
-  // },
-  // {
-  //   date: "10-12-2023",
-  //   name: "Curso de ReactJs",
-  //   description:
-  //     "Developed, maintained, and shipped production code for client websites. Clients included JetBlue, Lovesac, U.S. Cellular, U.S. Department of Defense, and more.",
-  //   url: "https://www.coderhouse.com/certificados/63091d9977cedc0088fed1cc?lang=es",
-  // },
   {
-    date: "01/2022 - 07/2022 ",
-    name: "Curso de desarrollador frontend ReactJs - Coderhouse",
-    description:
-      "Curso de 6 meses de frontend con enfoque en realizar diseños responsive , se ven tecnologias como HTML, CSS, SASS, BOOTSTRAP , REACT y FIREBASE.",
-    url: "https://www.coderhouse.com/certificados/630a3aafb366fb0019328e80?lang=es",
-    certificate: reactCarrera,
+    date: "01/2024",
+    name: "Meta React Native - Coursera",
+    description: "Programa especializado en la creación de aplicaciones multiplataforma (Android/iOS). Se hace hincapié en el manejo de data y la interfaz de usuario.",
+    url: "https://www.coursera.org/account/accomplishments/specialization/4JW7ZD9MXNU2",
+    certificate: metaRN,
   },
   {
-    date: "03-2023 - 09-2023",
+    date: "09-2023",
     name: "Programación backend - Coderhouse",
     description:
       "Curso de backend enfocado en el uso de javascript. Se aprende el uso de herramientas como NODE.JS, EXPRESS.JS, MONGODB y MONGOOSE. ",
     url: "https://www.coderhouse.com/certificados/65211bd89081bd805fcb422f?lang=es",
     certificate: backendCurso,
   },
-  // {
-  //   date: "10-12-2023",
-  //   name: "Certificación fullstack - Coderhouse",
-  //   description:
-  //     "Developed, maintained, and shipped production code for client websites. Clients included JetBlue, Lovesac, U.S. Cellular, U.S. Department of Defense, and more.",
-  //   url: "https://www.coderhouse.com/certificados/65211bd89081bd0448cb4248?lang=es",
-  // },
+  {
+    date: "07/2022 ",
+    name: "Desarrollador frontend ReactJs - Coderhouse",
+    description:
+      "Curso de 6 meses de frontend con enfoque en realizar diseños responsive , se ven tecnologias como HTML, CSS, SASS, BOOTSTRAP , REACT y FIREBASE.",
+    url: "https://www.coderhouse.com/certificados/630a3aafb366fb0019328e80?lang=es",
+    certificate: reactCarrera,
+  },
 ];
 
 export const socialMedia = [
