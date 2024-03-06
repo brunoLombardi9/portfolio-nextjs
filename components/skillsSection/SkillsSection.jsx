@@ -7,7 +7,7 @@ const SkillsSection = ({ skillsRef }) => {
   return (
     <>
       <TopSeparation />
-      <section ref={skillsRef} className="pb-[100px] md:pb-[20px]">
+      <section ref={skillsRef} className="pb-[100px] md:pb-[120px]">
         <p className="text-white mb-10 text-2xl">Skills</p>
 
         <div className="w-full grid grid-cols-4 gap-1">
